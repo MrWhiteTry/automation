@@ -1,0 +1,1 @@
+@py.exe C:\Users\MrWait\PycharmProjects\avtomatizaishen\PassSeciur.py
