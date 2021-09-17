@@ -1,7 +1,7 @@
 #! python3
 # PassSeciur.py - Программа для не защищённого хранения паролей
 
-PASSWORDS = {'email': 'F7min1BDDuvMJuxESSKHFhTxFtjVB6',
+PASSWORDS = {'email': 'F7min1BDDuvMJuxESSKHFhTxFtjVB6',  # dictionary of couple "login-pass"
              'blog': 'VnALvQyKAxiVH5G8v01if1MLZF3sdt',
              'luggage': '12345'}
 

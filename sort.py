@@ -1,3 +1,5 @@
+import random
+
 def insertion_sort(nums):
     # Сортировку начинаем со второго элемента, т.к. считается, что первый элемент уже отсортирован
     for i in range(1, len(nums)):
@@ -14,6 +16,9 @@ def insertion_sort(nums):
 
 
 # Проверяем, что оно работает
-random_list_of_nums = [9, 1, 15, 28, 6]
-insertion_sort(random_list_of_nums)
-print(random_list_of_nums)
+randomListOfNums = []
+while len(randomListOfNums) < 20:
+    randomListOfNums.append(random.randint(0, 100))
+print(randomListOfNums)
+insertion_sort(randomListOfNums)
+print(randomListOfNums)

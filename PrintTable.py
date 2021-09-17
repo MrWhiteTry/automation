@@ -1,4 +1,5 @@
 def printTable(data):
+    # 1st we need to search max width in every column and add it in the list
     colWidths = [0] * len(data)
     t = 0
     for i in data:  # идём во вложенные спсики
@@ -7,7 +8,8 @@ def printTable(data):
                 colWidths[t] = len(j)  # перезаписываем
         t += 1
     # print(colWidths)
-    ind_1 = 0
+    # 2nd we need to print our table and align it
+    ind_1 = 0  #TODO придумать способ как привязать счётчик к длинне списка, если он не будет известен зараенее
     while ind_1 < 4:
         ind_2 = 0
         emptyList = ''
